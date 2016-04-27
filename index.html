@@ -1,0 +1,95 @@
+<html>
+<head>
+	<title>Yushy Yump</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script language="javascript" type="text/javascript" src="engine.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-52057818-1', 'krystynasingleton.com');
+  	ga('send', 'pageview');
+
+	</script>
+</head>
+<body onload=init()>
+	<div id="gamewindow">
+		<img id="bg" src="starbg.png">
+		<img id="bg2" src="starbg2.png">
+		<img id="jupiter" src="jupiter.png">
+		<img id="ryanplan" src="ryanplan.png">
+		<img id="kplan" src="kplan.png">
+		<img id="pluto" src="pluto.png">
+		<img id="mars" src="mars.png">
+		<img id="earth" src="earth.png">
+		<img id="neptune" src="neptune.png">
+		<img id="purpplan" src="purpplan.png">
+		<img id="saturn" src="saturn.png">
+		<img id="saturn3" src="saturn3.png">
+		<img id="yushy" src="yushy.gif">
+		<img id="ufo" src="ufo.png">
+		<div id="instructionScreen">
+			<div id="instructionScreenContent">
+				<h2 class="green">Instructions for Game Play:</h2>
+				Jump onto planets using LEFT, RIGHT and UP arrow. 
+				<br>
+				UP arrow = JUMP
+				<br> <br>
+				TRY TO SURVIVE AS MANY SECONDS AS YOU CAN! 
+
+
+				<div id="playButton" class="button" onclick="beginGame()">
+					PLAY GAME
+				</div>
+			</div>
+		</div>
+		<div id="introScreen">
+			<div id="introScreenContent">
+				<h1>Yushy Yump</h1>
+				<div id="goBtn" class="button" onclick="startGame()">
+					Click for <br>
+					Instructions
+				</div>
+				<img id="startYush" src="yushy.gif">
+				<img id="startEarth" src="earth.png">
+			</div>
+		</div>
+		<div id="endScreen">
+			<div id="endScreenContent">
+				<h1><span class = "green"> GAME OVER</span> </h1>
+				
+				<div id="endTime"></div>
+				<div id="restartBtn" class="button" onclick="replay()">
+					Restart
+				</div>
+				<br><br>
+				<h2>*** Hint: Walk off Planet for an extra jump in air! ***<h2>
+			</div>
+			**Please allow time to load**
+		</div>
+		<div id="output"> 
+		</div>
+		
+		<audio id="sndMusic" preload="auto">
+			<source src="sound/background2.wav">
+			<source src="sound/background2.mp3">
+		</audio>
+		<audio id="sndJump" preload="auto">
+			<source src="sound/jump.mp3">
+			<source src="sound/jump.wav">
+		</audio>
+		<audio id="sndDie" preload="auto">
+			<source src="sound/die.mp3">
+			<source src="sound/die.wav">
+		</audio>
+
+	</div>
+
+
+</body>
+</html>

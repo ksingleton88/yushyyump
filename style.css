@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'codename_coder_free_4fbold';
+    src: url('font/timerfont-webfont.eot');
+    src: url('font/timerfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/timerfont-webfont.woff') format('woff'),
+         url('font/timerfont-webfont.ttf') format('truetype'),
+         url('font/timerfont-webfont.svg#codename_coder_free_4fbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#gamewindow{
+	height: 720px;
+	width: 1080px;
+	border: silver 5px solid;
+	margin: 0 auto;
+	margin-top: 25px;
+	overflow: hidden;
+	position: relative;
+}
+
+#instructionScreen{
+	position: absolute;
+	z-index: 100;
+	width: 1080px;
+	height: 720px;
+	background-color: black;
+}
+
+#instructionScreenContent{
+	padding: 15px;
+	width: 800px;
+	height: 500px;
+	margin: 100 auto;
+	text-align: center;
+	font-size: 30pt;
+	background-color: black;
+	color: white;
+	font-family: 'codename_coder_free_4fbold';
+
+}
+
+#introScreen{
+	position: absolute;
+	z-index: 100;
+	width: 1080px;
+	height: 720px;
+	background-color: black;
+}
+
+#introScreenContent{
+	padding: 15px;
+	width: 800px;
+	height: 500px;
+	margin: 100 auto;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#endScreen{
+	position: absolute;
+	z-index: 100;
+	width: 1080px;
+	height: 720px;
+	background-color: black;
+	display: none;
+}
+
+#endScreenContent{
+	padding: 15px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#endTime{
+	font-size: 50pt;
+	font-family: 'codename_coder_free_4fbold';
+}
+
+h1{
+	font-size: 60pt;
+	padding: 0px;
+	font-family: 'codename_coder_free_4fbold';
+}
+
+.green{
+	color: #8fc743;
+}
+
+.button{
+	position: absolute;
+	padding: 10px;
+	border-radius: 10px;
+	width: 100px;
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+	font-size: 14pt;
+	background-color: red;
+	color: white;
+	margin: 0 auto;
+	left: 480px;
+	top: 555px;
+
+
+}
+
+
+.button:hover{
+	background-color: #8fc743;
+}
+
+
+#bg{
+	position: absolute;
+	z-index: 0;
+}
+#bg2{
+	position: absolute;
+	z-index: 0;
+}
+
+#jupiter{
+	position: absolute;
+	z-index: 1;
+}
+
+#ryanplan{
+	position: absolute;
+	z-index: 1;
+}
+
+#kplan{
+	position: absolute;
+	z-index: 1;	
+}
+
+#pluto{
+	position: absolute;
+	z-index: 1;
+}
+
+#mars{
+	position: absolute;
+	z-index: 1;	
+}
+
+#yushyjump{
+	width: 75px;
+	position: absolute;
+	z-index: 10;
+}
+#earth{
+	position: absolute;
+	z-index: 1;
+}
+#neptune{
+	position: absolute;
+	z-index: 1;
+}
+#purpplan{
+	position: absolute;
+	z-index: 1;
+}
+#saturn{
+	position: absolute;
+	z-index: 0;
+}
+
+#saturn3{
+	position: absolute;
+	z-index: 0;
+}
+
+#yushy{
+	position: absolute;
+	z-index: 2;
+}
+
+#ufo{
+	position: absolute;
+}
+#startYush{
+	position: relative;
+	margin-top: 140px;
+	margin-right: 600px;
+	width: 200px;
+	height: 200px;
+
+}
+#startEarth{
+	position: absolute;
+	bottom: 350px;
+	left: 700px;
+	width: 700px;
+	height: 650px;
+}
+#output{
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 900px;
+	width: 200px;
+	height: 200px;
+	color: white;
+	font-family: 'codename_coder_free_4fbold';
+	font-size: 55pt;
+
+}
+
+
